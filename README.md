@@ -4,8 +4,14 @@ apt install python3 -y
 pip install protobuf
 cd magisk_termux_dumper
 chmod +x *
-sh ipythin.sh
+sh ipython.sh
 sh pextract.sh
+sh payload_dumper.py
+
+
+go with a file manager to /magisk_termux_dumper/output/boot.img
+
+finish !!!!!!
 
 # payload dumper
 Script tested on Yandex Amber OTA's (full and incremental) under Linux(but may works on Windows too)
