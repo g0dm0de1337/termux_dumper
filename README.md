@@ -1,3 +1,12 @@
+# Termux install
+pkg up && apt install python -y
+apt install python3 -y
+pip install protobuf
+cd magisk_termux_dumper
+chmod +x *
+sh ipythin.sh
+sh pextract.sh
+
 # payload dumper
 Script tested on Yandex Amber OTA's (full and incremental) under Linux(but may works on Windows too)
 
