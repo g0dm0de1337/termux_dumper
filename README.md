@@ -2,7 +2,7 @@
 
 ## Termux install
 
-pkg Install git -y
+pkg install git -y
 git clone https://github.com/g0dm0de1337/termux_dumper.git
 cd magisk_termux*
 
