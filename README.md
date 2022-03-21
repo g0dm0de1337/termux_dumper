@@ -2,39 +2,42 @@
 
 ## Termux install
 
-> pkg install git -y
-> termux-setup-storage 
-> cd /sdcard/Download/
-> git clone https://github.com/g0dm0de1337/termux_dumper.git
-> cd termux_dumper
-> chmod +x *
-> ls
+- pkg install git -y
+- termux-setup-storage 
+- cd /sdcard/Download/
+- git clone https://github.com/g0dm0de1337/termux_dumper.git
+- cd termux_dumper
+- chmod +x *
+- ls
 
-## -go to your Filemanager & unzip YourSystemUpdate.zip
-## -copy your payload.bin in the termux_dumper folder
-## -back to Termux
+## go to your Filemanager & unzip YourSystemUpdate.zip
+## copy your payload.bin in the termux_dumper folder
 
 
-> sh ipython.sh 
-> sh pextract.sh
-...wait
-> cd output 
-> ls (<-- See all .img files, from payload.bin)
+> back to Termux
+
+- sh ipython.sh 
+- sh pextract.sh
+> ...wait for done
+- cd output 
+- ls (<-- See all .img files, from payload.bin)
 
 
 # Manual Install Python 
-> pkg up && apt install python -y
-> apt install python3 -y
-> pip install protobuf
-> cd termux_dumper
- Paste payload.bin in this folder !!
-> chmod +x *
-> sh ipython.sh
-> sh pextract.sh
-> sh payload_dumper.py
+- pkg up && apt install python -y
+- apt install python3 -y
+- pip install --upgrade pip
+- pip install protobuf
+- python --version
+- cd termux_dumper
+> Paste payload.bin in this folder !!
+- chmod +x *
+- sh ipython.sh
+- sh pextract.sh
+- sh payload_dumper.py
 
 
-# old Tutorial 
+# old Tutorial /// NOT FROM ME !!
 go with a file manager to /termux_dumper/output/boot.img
 
 finish !!!!!!
