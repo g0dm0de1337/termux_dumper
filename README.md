@@ -29,12 +29,19 @@
 - pip install --upgrade pip
 - pip install protobuf
 - python --version
-- cd termux_dumper
-> Paste payload.bin in this folder !!
+- pkg install git -y
+- termux-setup-storage
+> Alle
+- cd /sdcard/Download/
+- git clone https://github.com/g0dm0de1337/termux_dumper.git
 - chmod +x *
-- sh ipython.sh
+> Filemanager && unzip YourSystemUpdate.zip && Copy&Paste payload.bin in the folder "termux_dumper" !!
+- ls
 - sh pextract.sh
-- sh payload_dumper.py
+> (sh payload_dumper.py)
+# all img. Files from your payload.bin was in termux_dumper/output
+
+
 
 
 # old Tutorial /// NOT FROM ME !!
