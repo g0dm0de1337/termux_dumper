@@ -1,15 +1,41 @@
 # Termux install
+
+pkg Install git -y
+git clone https://github.com/g0dm0de1337/magisk_termux_dumper.git
+cd magisk_termux*
+
+( Paste your payload.bin File here !!
+pwd
+-copy Pfad
+cd 
+termux-setup-storage 
+cd /sdcard/Download/
+cp YourSystemUpdate.zip $HOME/termux_dumper/
+cd
+cd termux_dumper
+unzip YourSystemUpdate.zip
+rm -rf YourSystemUpdate.zip )
+
+chmod +x *
+sh ipython.sh 
+sh pextract.sh
+...wait
+cd output 
+ls (<-- See all .img files, from payload.bin)
+
+
+Manual Install Python 
 pkg up && apt install python -y
 apt install python3 -y
 pip install protobuf
-cd magisk_termux_dumper
+cd termux_dumper
 chmod +x *
 sh ipython.sh
 sh pextract.sh
 sh payload_dumper.py
 
 
-go with a file manager to /magisk_termux_dumper/output/boot.img
+go with a file manager to /termux_dumper/output/boot.img
 
 finish !!!!!!
 
