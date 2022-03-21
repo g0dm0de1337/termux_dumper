@@ -2,28 +2,8 @@
 
 ## Termux install
 
-- pkg install git -y
-- termux-setup-storage 
-- cd /sdcard/Download/
-- git clone https://github.com/g0dm0de1337/termux_dumper.git
-- cd termux_dumper
-- chmod +x *
-- ls
+# StepByStep Install without iPython script:
 
-## go to your Filemanager & unzip YourSystemUpdate.zip
-## copy your payload.bin in the termux_dumper folder
-
-
-> back to Termux
-
-- sh ipython.sh 
-- sh pextract.sh
-> ...wait for done
-- cd output 
-- ls (<-- See all .img files, from payload.bin)
-
-
-# Manual Install Python 
 - pkg up && apt install python -y
 - apt install python3 -y
 - pip install --upgrade pip
@@ -31,15 +11,40 @@
 - python --version
 - pkg install git -y
 - termux-setup-storage
-> Alle
+> Allow
 - cd /sdcard/Download/
 - git clone https://github.com/g0dm0de1337/termux_dumper.git
+- cd termux_dumper
 - chmod +x *
-> Filemanager && unzip YourSystemUpdate.zip && Copy&Paste payload.bin in the folder "termux_dumper" !!
+> Open Filemanager && unzip YourSystemUpdate.zip && 
+> Copy&Paste your "payload.bin" in your folder "termux_dumper" ! 
+> Back2Termux!!
 - ls
 - sh pextract.sh
 > (sh payload_dumper.py)
 # all img. Files from your payload.bin was in termux_dumper/output
+
+
+### fix Install Termux 
+
+- pkg install git -y
+- termux-setup-storage 
+- cd /sdcard/Download/
+- git clone https://github.com/g0dm0de1337/termux_dumper.git
+- cd termux_dumper
+- chmod +x *
+- ls
+> Open Filemanager && unzip YourSystemUpdate.zip && 
+> Copy&Paste your "payload.bin" in your folder "termux_dumper" ! 
+> Back2Termux!!
+- sh iPython.sh
+- sh pextract.sh
+> (sh payload_dumper.py)
+# all img. Files from your payload.bin was in termux_dumper/output
+
+
+
+
 
 
 
