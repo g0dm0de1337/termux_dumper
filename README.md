@@ -2,41 +2,39 @@
 
 ## Termux install
 
-pkg install git -y
-git clone https://github.com/g0dm0de1337/termux_dumper.git
-cd magisk_termux*
+> pkg install git -y
+> termux-setup-storage 
+> cd /sdcard/Download/
+> git clone https://github.com/g0dm0de1337/termux_dumper.git
+> cd termux_dumper
+> chmod +x *
+> ls
 
-( Paste your payload.bin File here !!
-pwd
--copy Pfad
-cd 
-termux-setup-storage 
-cd /sdcard/Download/
-cp YourSystemUpdate.zip $HOME/termux_dumper/
-cd
-cd termux_dumper
-unzip YourSystemUpdate.zip
-rm -rf YourSystemUpdate.zip )
+## -go to your Filemanager & unzip YourSystemUpdate.zip
+## -copy your payload.bin in the termux_dumper folder
+## -back to Termux
 
-chmod +x *
-sh ipython.sh 
-sh pextract.sh
+
+> sh ipython.sh 
+> sh pextract.sh
 ...wait
-cd output 
-ls (<-- See all .img files, from payload.bin)
+> cd output 
+> ls (<-- See all .img files, from payload.bin)
 
 
-Manual Install Python 
-pkg up && apt install python -y
-apt install python3 -y
-pip install protobuf
-cd termux_dumper
-chmod +x *
-sh ipython.sh
-sh pextract.sh
-sh payload_dumper.py
+# Manual Install Python 
+> pkg up && apt install python -y
+> apt install python3 -y
+> pip install protobuf
+> cd termux_dumper
+ Paste payload.bin in this folder !!
+> chmod +x *
+> sh ipython.sh
+> sh pextract.sh
+> sh payload_dumper.py
 
 
+# old Tutorial 
 go with a file manager to /termux_dumper/output/boot.img
 
 finish !!!!!!
