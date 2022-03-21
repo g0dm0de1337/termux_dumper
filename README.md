@@ -1,7 +1,9 @@
-# Termux install
+# Unzip your android update and paste your payload.bin in the termux_dumper folder
+
+## Termux install
 
 pkg Install git -y
-git clone https://github.com/g0dm0de1337/magisk_termux_dumper.git
+git clone https://github.com/g0dm0de1337/termux_dumper.git
 cd magisk_termux*
 
 ( Paste your payload.bin File here !!
