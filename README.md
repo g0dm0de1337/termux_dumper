@@ -4,7 +4,7 @@ Do you need the boot.img for magisk ??
 - Install Termux 
 - Follow my repo 
 - go to : 
-> /0/Download/termux_dumper/output/ 
+> /0/termux_dumper/output/ 
 
 - Your boot.img is ready for magisk patch
 
@@ -22,7 +22,7 @@ Do you need the boot.img for magisk ??
 - pkg install git -y
 - termux-setup-storage
 > Allow
-- cd /sdcard/Download/
+- cd /sdcard/
 - git clone https://github.com/g0dm0de1337/termux_dumper.git
 - cd termux_dumper
 - chmod +x *
@@ -39,7 +39,7 @@ Do you need the boot.img for magisk ??
 
 - pkg install git -y
 - termux-setup-storage 
-- cd /sdcard/Download/
+- cd /sdcard/
 - git clone https://github.com/g0dm0de1337/termux_dumper.git
 - cd termux_dumper
 - chmod +x *
