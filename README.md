@@ -14,9 +14,8 @@ Do you need the boot.img for magisk ??
 
 # StepByStep Install without iPython script:
 
-- pkg up && apt install python -y
-- apt install python3 -y
-- pip install --upgrade pip
+- pkg up 
+- pkg install python -y
 - pip install protobuf
 - python --version
 - pkg install git -y
@@ -48,6 +47,7 @@ Do you need the boot.img for magisk ??
 > Copy&Paste your "payload.bin" in your folder "termux_dumper" ! 
 > Back2Termux!!
 - sh iPython.sh
+- pip install protobuf
 - sh pextract.sh
 > ...wait for done
 # all img. Files from your payload.bin was in termux_dumper/output
