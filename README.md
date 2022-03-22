@@ -1,3 +1,9 @@
+This Help you to extract a payload.bin from OTA-files/Android Updates ..
+Extract all .img from payload.bin
+Do you need the boot.img for magisk ?? Install Termux .. Follow my repo .. copy from : 
+/0/Download/output/ 
+Your boot.img for magisk patch
+
 # Unzip your android update and paste your payload.bin in the termux_dumper folder
 
 ## Termux install
@@ -21,7 +27,7 @@
 > Back2Termux!!
 - ls
 - sh pextract.sh
-> (sh payload_dumper.py)
+> ...wait for done
 # all img. Files from your payload.bin was in termux_dumper/output
 
 
@@ -39,14 +45,14 @@
 > Back2Termux!!
 - sh iPython.sh
 - sh pextract.sh
-> (sh payload_dumper.py)
+> ...wait for done
 # all img. Files from your payload.bin was in termux_dumper/output
 
 
 
-
-
-
+.
+.
+.
 
 
 # old Tutorial /// NOT FROM ME !!
