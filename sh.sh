@@ -16,17 +16,19 @@ echo .Payload.bin 2 Boot img ..perfekt4Magisk
 sleep 3
 echo .
 echo .
+echo -go to your SD-card
+echo .
 echo -create a folder with "Boot" as name
 echo .
 echo -unzip your OTA File &
 echo .
 echo -paste your payload.bin in your "Boot" folder
-sleep 5
+sleep 7
 echo .
 echo .
 echo .if your file is not in the folder yet,
 echo .break off this script with crtl+c !!
-sleep 5
+sleep 7
 echo .
 echo .
 echo .
@@ -46,7 +48,7 @@ echo .Allow the next Termux Pop-up !!
 
 cd $HOME
 termux-setup-storage
-sleep 4
+sleep 6
 ls
 sleep 3
 clear
@@ -58,11 +60,16 @@ pkg install python -y
 git clone https://GitHub.com/g0dm0de1337/termux_dumper
 
 cd /sdcard/Boot
-cp payload.bin $HOME/termux_dumper
+ls
+sleep 3
 clear
+cp payload.bin $HOME/termux_dumper
 echo .
+echo .WE copy your payload.bin
+echo .in the right folder
 echo .
 sleep 7
+clear
 cd $HOME
 cd termux_dumper
 chmod +x *
